@@ -7,6 +7,7 @@ int main (int argc, char *argv[]) {
     // ++ instead of +=
     // -- instead of -=
     // % modulus 
+    //
     int n1 = 9;
     int n2 = 4; // or change it to float type, has to be the divisor
     int n3 = n1/n2;
