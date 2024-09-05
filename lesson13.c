@@ -7,6 +7,6 @@ int main (int argc, char *argv[]) {
     FILE *theFile = fopen("lesson13File.txt", "w");
     fprintf(theFile, "This is testing the file by using c");
     fclose(theFile);
-
+    //
     return 0;
 }
