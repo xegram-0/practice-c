@@ -8,5 +8,6 @@ int main (int argc, char *argv[]) {
     fprintf(theFile, "This is testing the file by using c");
     fclose(theFile);
     //
+    //
     return 0;
 }
