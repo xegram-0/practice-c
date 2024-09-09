@@ -30,8 +30,16 @@ int main() {
     return 0;
 }
 
-void resetBoard(char board[]){
-
+void resetBoard(char board[][]){
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; i++)
+        {
+            board[i][j] = ' ';
+        }
+        
+    }
+    
     return 0;
 }
 int playerMove;
