@@ -44,9 +44,10 @@ void resetBoard(char board[][]){
 }
 int playerMove;
 void board;
-void winner
+void winner;
 int checkingLine{
 
     return winning;
 }
 void checkingWinner;
+
