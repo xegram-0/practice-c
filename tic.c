@@ -39,15 +39,57 @@ void resetBoard(char board[][]){
         }
         
     }
-    
     return 0;
 }
-int playerMove;
+int playerMove{
+    char move = '';
+
+    return move;
+}
 void board;
 void winner;
-int checkingLine{
-
-    return winning;
+void checkingLine{
+    //case 1
+    if (board[0][0] == board[0][1] && board[0][0] == board[0][2])
+    {
+        printf("win :>> %c\n");
+    }
+    //case 2
+    if (board[1][0] == board[1][1] && board[1][0] == board[1][2])
+    {
+        printf("win :>> %c\n");
+    }
+    //case 3
+    if (board[2][0] == board[2][1] && board[2][0] == board[2][2])
+    {
+        printf("win :>> %c\n");
+    }
+    //case 4
+    if (board[0][0] == board[1][0] && board[0][0] == board[2][0])
+    {
+        printf("win :>> %c\n");
+    }
+    //case 5
+    if (board[0][1] == board[1][1] && board[0][1] == board[2][1])
+    {
+        printf("win :>> %c\n");
+    }
+    //case 6
+    if (board[0][2] == board[1][2] && board[0][2] == board[2][2])
+    {
+        printf("win :>> %c\n");
+    }
+    //case 7
+    if (board[0][0] == board[1][1] && board[0][0] == board[2][2])
+    {
+        printf("win :>> %c\n");
+    }
+    //case 8
+    if (board[0][2] == board[1][1] && board[0][2] == board[2][0]
+    {
+        printf("win :>> %c\n");
+    }
+    return 0;
 }
 void checkingWinner;
 
