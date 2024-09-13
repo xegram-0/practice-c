@@ -47,7 +47,18 @@ int playerMove{
     return move;
 }
 void board;
-void winner;
+void winner(char who[10]){
+    if (who[10] == "PLAYER")
+    {
+        printf("PLAYER WINS\n");
+    }
+    else if (who[10] == "COMPUTER")
+    {
+        printf("COMPUTER WINS\n");
+    }
+    
+};
+
 void checkingLine{
     //case 1
     if (board[0][0] == board[0][1] && board[0][0] == board[0][2])
