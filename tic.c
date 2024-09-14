@@ -58,7 +58,7 @@ void winner(char who[10]){
     }
     
 };
-
+// checking the lines for victory condition
 void checkingLine{
     //case 1
     if (board[0][0] == board[0][1] && board[0][0] == board[0][2])
