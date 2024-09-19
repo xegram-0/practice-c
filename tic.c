@@ -3,7 +3,6 @@
 #include <time.h>
 #include <stdbool.h>
 #include <stdlib.h>
-//////
 char PLAYER = 'X';
 char COMPUTER = 'O';
 //
