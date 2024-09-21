@@ -5,7 +5,6 @@
 #include <stdlib.h>
 char PLAYER = 'X';
 char COMPUTER = 'O';
-// smaller funcitons
 void resetBoard;
 void board;
 void winner;
