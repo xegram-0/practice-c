@@ -55,6 +55,7 @@ void winner(char who[10]){
     }
     
 };
+
 // checking the lines for victory condition
 void checkingLine{
     //case 1
