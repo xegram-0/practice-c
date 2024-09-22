@@ -17,7 +17,6 @@ int main() {
     bool win = 0;
     resetBoard(board);
     do {
-        /* code here */ 
         playerMove;
         win = checkingLine;
 
