@@ -11,7 +11,7 @@ void winner;
 void checkingLine;
 void checkingWinner;
 int playerMove;
-// main funtion
+// main funtion..
 int main() {
     char board[3][3];
     bool win = 0;
